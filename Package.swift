@@ -12,17 +12,20 @@ import PackageDescription
 
 
 let package = Package(
-    name: "ApodiniTemplate",
+    name: "ApodiniObserveMetricsPrometheus",
     platforms: [
         .macOS(.v11)
     ],
     products: [
-        .library(name: "ApodiniTemplate", targets: ["ApodiniTemplate"])
+        .library(name: "ApodiniObserveMetricsPrometheus", targets: ["ApodiniObserveMetricsPrometheus"])
+    ],
     ],
     targets: [
-        .target(name: "ApodiniTemplate"),
+        .target(
+            name: "ApodiniObserveMetricsPrometheus",
+        ),
         .testTarget(
-            name: "ApodiniTemplateTests",
+            name: "ApodiniObserveMetricsPrometheusTests",
             dependencies: [
                 .target(name: "ApodiniTemplate")
             ]
