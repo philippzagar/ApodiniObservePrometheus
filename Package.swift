@@ -14,7 +14,7 @@ import PackageDescription
 let package = Package(
     name: "ApodiniObservePrometheus",
     platforms: [
-        .macOS(.v11)
+        .macOS(.v12)
     ],
     products: [
         .library(name: "ApodiniObservePrometheus", targets: ["ApodiniObservePrometheus"])
