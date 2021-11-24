@@ -12,14 +12,14 @@ import XCTApodini
 import Metrics
 @testable import Prometheus
 @testable import ApodiniObserve
-import ApodiniObserveMetricsPrometheus
+import ApodiniObservePrometheus
 import ApodiniHTTP
 @testable import Apodini
 import XCTApodiniObserve
 @testable import MetricsTestUtils
 
 // swiftlint:disable closure_body_length
-class ApodiniObserveMetricsPrometheusTests: XCTestCase {
+class ApodiniObservePrometheusTests: XCTestCase {
     // swiftlint:disable implicitly_unwrapped_optional
     static var app: Apodini.Application!
     static var metricsConfiguration: MetricsConfiguration!
@@ -60,11 +60,11 @@ class ApodiniObserveMetricsPrometheusTests: XCTestCase {
     struct Greeter: Handler {
         @Parameter(.http(.path)) var name: String
         
-        @ApodiniCounter(label: ApodiniObserveMetricsPrometheusTests.counterLabel) var counter
-        @ApodiniGauge(label: ApodiniObserveMetricsPrometheusTests.gaugeLabel) var gauge
-        @ApodiniHistogram(label: ApodiniObserveMetricsPrometheusTests.histrogramLabel) var histogram
-        @ApodiniRecorder(label: ApodiniObserveMetricsPrometheusTests.recorderLabel) var recorder
-        @ApodiniTimer(label: ApodiniObserveMetricsPrometheusTests.timerLabel, preferredDisplayUnit: .nanoseconds) var timer
+        @ApodiniCounter(label: ApodiniObservePrometheusTests.counterLabel) var counter
+        @ApodiniGauge(label: ApodiniObservePrometheusTests.gaugeLabel) var gauge
+        @ApodiniHistogram(label: ApodiniObservePrometheusTests.histrogramLabel) var histogram
+        @ApodiniRecorder(label: ApodiniObservePrometheusTests.recorderLabel) var recorder
+        @ApodiniTimer(label: ApodiniObservePrometheusTests.timerLabel, preferredDisplayUnit: .nanoseconds) var timer
 
         func handle() -> String {
             counter.increment(by: 3)
@@ -79,10 +79,10 @@ class ApodiniObserveMetricsPrometheusTests: XCTestCase {
     struct Greeter2: Handler {
         @Parameter(.http(.path)) var name: String
         
-        @ApodiniPrometheusCounter(label: ApodiniObserveMetricsPrometheusTests.counterLabel) var counter
-        @ApodiniPrometheusGauge(label: ApodiniObserveMetricsPrometheusTests.gaugeLabel) var gauge
-        @ApodiniPrometheusHistogram(label: ApodiniObserveMetricsPrometheusTests.histrogramLabel) var histogram
-        @ApodiniPrometheusSummary(label: ApodiniObserveMetricsPrometheusTests.summaryLabel) var summary
+        @ApodiniPrometheusCounter(label: ApodiniObservePrometheusTests.counterLabel) var counter
+        @ApodiniPrometheusGauge(label: ApodiniObservePrometheusTests.gaugeLabel) var gauge
+        @ApodiniPrometheusHistogram(label: ApodiniObservePrometheusTests.histrogramLabel) var histogram
+        @ApodiniPrometheusSummary(label: ApodiniObservePrometheusTests.summaryLabel) var summary
 
         func handle() -> String {
             counter.inc(3)

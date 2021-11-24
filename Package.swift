@@ -12,12 +12,12 @@ import PackageDescription
 
 
 let package = Package(
-    name: "ApodiniObserveMetricsPrometheus",
+    name: "ApodiniObservePrometheus",
     platforms: [
         .macOS(.v11)
     ],
     products: [
-        .library(name: "ApodiniObserveMetricsPrometheus", targets: ["ApodiniObserveMetricsPrometheus"])
+        .library(name: "ApodiniObservePrometheus", targets: ["ApodiniObservePrometheus"])
     ],
     dependencies: [
         // Use the branch name until it is merged into develop
@@ -30,7 +30,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "ApodiniObserveMetricsPrometheus",
+            name: "ApodiniObservePrometheus",
             dependencies: [
                 .product(name: "Apodini", package: "Apodini"),
                 .product(name: "ApodiniObserve", package: "Apodini"),
@@ -39,9 +39,9 @@ let package = Package(
             ]
         ),
         .testTarget(
-            name: "ApodiniObserveMetricsPrometheusTests",
+            name: "ApodiniObservePrometheusTests",
             dependencies: [
-                .target(name: "ApodiniObserveMetricsPrometheus"),
+                .target(name: "ApodiniObservePrometheus"),
                 .product(name: "XCTApodiniObserve", package: "Apodini"),
                 .product(name: "XCTApodini", package: "Apodini"),
                 .product(name: "ApodiniHTTP", package: "Apodini"),

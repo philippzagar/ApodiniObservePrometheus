@@ -1,4 +1,4 @@
-# ``ApodiniObserveMetricsPrometheus``
+# ``ApodiniObservePrometheus``
 
 Prometheus metrics configuration and types for the ApodiniObserve module.
 
@@ -14,4 +14,4 @@ SPDX-License-Identifier: MIT
 
 ## Overview
 
-This is an example for a [DocC](https://developer.apple.com/documentation/docc) documentation for the ApodiniObserveMetricsPrometheus package.
+This is an example for a [DocC](https://developer.apple.com/documentation/docc) documentation for the ApodiniObservePrometheus package.
