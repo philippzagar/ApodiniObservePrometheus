@@ -4,21 +4,20 @@
 // SPDX-FileCopyrightText: 2019-2021 Paul Schmiedmayer and the Apodini project authors (see CONTRIBUTORS.md) <paul.schmiedmayer@tum.de>
 //
 // SPDX-License-Identifier: MIT
-//              
+//
 
+#if DEBUG || RELEASE_TESTING
+@testable import Apodini
+import ApodiniHTTP
+@testable import ApodiniObserve
+@testable import ApodiniObservePrometheus
+@testable import Prometheus
 import XCTest
 import XCTApodini
-//import XCTApodiniNetworking
-import Metrics
-@testable import Prometheus
-@testable import ApodiniObserve
-import ApodiniObservePrometheus
-import ApodiniHTTP
-@testable import Apodini
+import XCTApodiniNetworking
 import XCTApodiniObserve
-@testable import MetricsTestUtils
 
-// swiftlint:disable closure_body_length
+// swiftlint:disable closure_body_length function_body_length
 class ApodiniObservePrometheusTests: XCTestCase {
     // swiftlint:disable implicitly_unwrapped_optional
     static var app: Apodini.Application!
@@ -42,7 +41,7 @@ class ApodiniObservePrometheusTests: XCTestCase {
             prometheusHandlerConfiguration: .defaultPrometheusWithConfig(),
             systemMetricsConfiguration: .default
         )
-        app = ApodiniMetricsTests.configureMetrics(app, metricsConfiguration: Self.metricsConfiguration)
+        app = XCTApodiniObserve.configureMetrics(app, metricsConfiguration: Self.metricsConfiguration)
         
         let visitor = SyntaxTreeVisitor(modelBuilder: SemanticModelBuilder(app))
         content.accept(visitor)
@@ -258,3 +257,4 @@ class ApodiniObservePrometheusTests: XCTestCase {
         }
     }
 }
+#endif
