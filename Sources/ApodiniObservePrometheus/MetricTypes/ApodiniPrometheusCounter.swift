@@ -27,10 +27,10 @@ public struct ApodiniPrometheusCounter<T: Numeric, U: MetricLabels>: DynamicProp
     let prometheusLabelSanitizer: PrometheusLabelSanitizer
     
     public init(label: String,
-                type: T.Type = Int64.self as! T.Type,
+                type: T.Type = Int64.self as! T.Type, // swiftlint:disable:this force_cast
                 helpText: String? = nil,
                 initialValue: T = 0,
-                withLabelType: U.Type = DimensionLabels.self as! U.Type) {
+                withLabelType: U.Type = DimensionLabels.self as! U.Type) { // swiftlint:disable:this force_cast
         self.label = label
         self.type = type
         self.helpText = helpText

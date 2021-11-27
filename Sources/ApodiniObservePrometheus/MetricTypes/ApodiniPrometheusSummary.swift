@@ -28,11 +28,11 @@ public struct ApodiniPrometheusSummary<T: DoubleRepresentable, U: SummaryLabels>
     let prometheusLabelSanitizer: PrometheusLabelSanitizer
     
     public init(label: String,
-                type: T.Type = Int64.self as! T.Type,
+                type: T.Type = Int64.self as! T.Type, // swiftlint:disable:this force_cast
                 helpText: String? = nil,
                 capacity: Int = Prometheus.defaultSummaryCapacity,
                 quantiles: [Double] = Prometheus.defaultQuantiles,
-                withLabelType: U.Type = DimensionSummaryLabels.self as! U.Type) {
+                withLabelType: U.Type = DimensionSummaryLabels.self as! U.Type) { // swiftlint:disable:this force_cast
         self.label = label
         self.type = type
         self.helpText = helpText

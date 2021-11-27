@@ -27,10 +27,10 @@ public struct ApodiniPrometheusHistogram<T: DoubleRepresentable, U: HistogramLab
     let prometheusLabelSanitizer: PrometheusLabelSanitizer
     
     public init(label: String,
-                type: T.Type = Int64.self as! T.Type,
+                type: T.Type = Int64.self as! T.Type, // swiftlint:disable:this force_cast
                 helpText: String? = nil,
                 buckets: Buckets = .defaultBuckets,
-                withLabelType: U.Type = DimensionHistogramLabels.self as! U.Type) {
+                withLabelType: U.Type = DimensionHistogramLabels.self as! U.Type) { // swiftlint:disable:this force_cast
         self.label = label
         self.type = type
         self.helpText = helpText
