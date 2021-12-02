@@ -20,8 +20,7 @@ let package = Package(
         .library(name: "ApodiniObservePrometheus", targets: ["ApodiniObservePrometheus"])
     ],
     dependencies: [
-        // Use the branch name until it is merged into develop
-        .package(url: "https://github.com/Apodini/Apodini.git", branch: "feature/extract-ApodiniObserve"),
+        .package(url: "https://github.com/Apodini/Apodini.git", .upToNextMinor(from: "0.6.1")),
         .package(url: "https://github.com/apple/swift-metrics.git", .upToNextMinor(from: "2.2.0")),
         .package(url: "https://github.com/MrLotU/SwiftPrometheus.git", from: "1.0.0-alpha")
     ],
