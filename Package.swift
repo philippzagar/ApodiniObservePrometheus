@@ -14,13 +14,13 @@ import PackageDescription
 let package = Package(
     name: "ApodiniObservePrometheus",
     platforms: [
-        .macOS(.v12)
+        .macOS(.v11)
     ],
     products: [
         .library(name: "ApodiniObservePrometheus", targets: ["ApodiniObservePrometheus"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Apodini/Apodini.git", .upToNextMinor(from: "0.6.1")),
+        .package(url: "https://github.com/Apodini/Apodini.git", .upToNextMinor(from: "0.7.1")),
         .package(url: "https://github.com/apple/swift-metrics.git", .upToNextMinor(from: "2.2.0")),
         .package(url: "https://github.com/MrLotU/SwiftPrometheus.git", from: "1.0.0-alpha")
     ],
