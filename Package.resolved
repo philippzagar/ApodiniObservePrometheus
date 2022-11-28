@@ -12,20 +12,20 @@
       },
       {
         "package": "Apodini",
-        "repositoryURL": "https://github.com/Apodini/Apodini.git",
+        "repositoryURL": "https://github.com/philippzagar/Apodini",
         "state": {
-          "branch": null,
-          "revision": "c0d8d930bce0df495529b5576b521fcc7106ce36",
-          "version": "0.9.1"
+          "branch": "develop",
+          "revision": "e27990a531a01d25bd67003942f5ac5c796ef935",
+          "version": null
         }
       },
       {
         "package": "ApodiniDocumentExport",
-        "repositoryURL": "https://github.com/Apodini/ApodiniDocumentExport.git",
+        "repositoryURL": "https://github.com/Apodini/ApodiniDocumentExport",
         "state": {
           "branch": null,
-          "revision": "0a3fe4195f011057ad2cd5150c9091f2a17c2ec1",
-          "version": "0.1.1"
+          "revision": "7de65b4c81929b56eadad190b11f02cf42ff9afe",
+          "version": null
         }
       },
       {
@@ -42,17 +42,8 @@
         "repositoryURL": "https://github.com/Apodini/ApodiniTypeInformation.git",
         "state": {
           "branch": null,
-          "revision": "40247bedd5153b7641e95a11bd826b16a15fd12e",
-          "version": "0.3.6"
-        }
-      },
-      {
-        "package": "AssociatedTypeRequirementsKit",
-        "repositoryURL": "https://github.com/nerdsupremacist/AssociatedTypeRequirementsKit.git",
-        "state": {
-          "branch": null,
-          "revision": "2e4c49c21ffb2135f1c99fbfcf2119c9d24f5e8c",
-          "version": "0.3.2"
+          "revision": "a5c86293f1fd3585321d38999d8c98176a02b7b0",
+          "version": "0.3.7"
         }
       },
       {
@@ -60,8 +51,8 @@
         "repositoryURL": "https://github.com/swift-server/async-http-client.git",
         "state": {
           "branch": null,
-          "revision": "7a4dfe026f6ee0f8ad741b58df74c60af296365d",
-          "version": "1.9.0"
+          "revision": "5bee16a79922e3efcb5cea06ecd27e6f8048b56b",
+          "version": "1.13.1"
         }
       },
       {
@@ -69,8 +60,8 @@
         "repositoryURL": "https://github.com/vapor/async-kit.git",
         "state": {
           "branch": null,
-          "revision": "e2f741640364c1d271405da637029ea6a33f754e",
-          "version": "1.11.1"
+          "revision": "3be4b6418d1e8b835b0b1a1bee06b249faa4da5f",
+          "version": "1.14.0"
         }
       },
       {
@@ -87,8 +78,8 @@
         "repositoryURL": "https://github.com/vapor/fluent-kit.git",
         "state": {
           "branch": null,
-          "revision": "63c13b1fcc5266d35df676a8e75bbb602497f12b",
-          "version": "1.23.4"
+          "revision": "be7912ee4991bcc8a5390fac0424d1d08221dcc6",
+          "version": "1.36.1"
         }
       },
       {
@@ -96,8 +87,8 @@
         "repositoryURL": "https://github.com/vapor/fluent-sqlite-driver.git",
         "state": {
           "branch": null,
-          "revision": "9ca34be792979fb0f1dbd8e45b8af9f1e1440474",
-          "version": "4.1.0"
+          "revision": "7f2a0b105e9cd22141dee220848d8739da6b7232",
+          "version": "4.3.0"
         }
       },
       {
@@ -105,8 +96,8 @@
         "repositoryURL": "https://github.com/GraphQLSwift/GraphQL",
         "state": {
           "branch": null,
-          "revision": "283cc4de56b994a00b2724328221b7a1bc846ddc",
-          "version": "2.2.1"
+          "revision": "ad4a71514c604de040a53d6ef37b2c18435e825e",
+          "version": "2.4.3"
         }
       },
       {
@@ -114,8 +105,8 @@
         "repositoryURL": "https://github.com/grpc/grpc-swift.git",
         "state": {
           "branch": null,
-          "revision": "593fe0fe931f7e838969243cd137be48e8055b1d",
-          "version": "1.7.3"
+          "revision": "3e17f2b847da39b50329b7a11c5ad23453190e8b",
+          "version": "1.13.0"
         }
       },
       {
@@ -132,8 +123,8 @@
         "repositoryURL": "https://github.com/vapor/jwt-kit.git",
         "state": {
           "branch": null,
-          "revision": "5f9c44d4c196cc06c3fc601f279169f121d6f62d",
-          "version": "4.4.0"
+          "revision": "87ce13a1df913ba4d51cf00606df7ef24d455571",
+          "version": "4.7.0"
         }
       },
       {
@@ -141,8 +132,8 @@
         "repositoryURL": "https://github.com/Apodini/MetadataSystem.git",
         "state": {
           "branch": null,
-          "revision": "f655813f1953af8d3aaac432dad35f394e7bdf75",
-          "version": "0.1.6"
+          "revision": "761c5dbaa9f53293b1109f81d469370b5f5f61e7",
+          "version": "0.1.7"
         }
       },
       {
@@ -150,8 +141,8 @@
         "repositoryURL": "https://github.com/mattpolzin/OpenAPIKit.git",
         "state": {
           "branch": null,
-          "revision": "328d11996ccc43205bd861535021d8c22168a08a",
-          "version": "2.5.0"
+          "revision": "c98ceb9884941d9fb5297cff826992a6c6b2a068",
+          "version": "2.5.1"
         }
       },
       {
@@ -170,6 +161,15 @@
           "branch": null,
           "revision": "3bfd2737b700b9a36565a8c94f4ad2b050a5e574",
           "version": "1.0.1"
+        }
+      },
+      {
+        "package": "PythonKit",
+        "repositoryURL": "https://github.com/pvieito/PythonKit.git",
+        "state": {
+          "branch": null,
+          "revision": "81f621d094a7c8923207efe5178f50dba1b56c39",
+          "version": "0.3.1"
         }
       },
       {
@@ -195,8 +195,8 @@
         "repositoryURL": "https://github.com/soto-project/soto.git",
         "state": {
           "branch": null,
-          "revision": "b98994beabdced18cbedbe50e947e6f2c8e0d602",
-          "version": "5.12.1"
+          "revision": "3648a7fcbaa1ac06b6ab2b4b227d521ed065e780",
+          "version": "5.13.1"
         }
       },
       {
@@ -231,8 +231,8 @@
         "repositoryURL": "https://github.com/vapor/sql-kit.git",
         "state": {
           "branch": null,
-          "revision": "afc74d888649f2b2a2f8cc7963be5eb179409610",
-          "version": "3.17.0"
+          "revision": "dcf10a00d7d5df987b7948e6fd5596fb65f6d0c2",
+          "version": "3.23.0"
         }
       },
       {
@@ -240,8 +240,8 @@
         "repositoryURL": "https://github.com/vapor/sqlite-kit.git",
         "state": {
           "branch": null,
-          "revision": "0b3b12b032991de3ab5999b428a652ec29139746",
-          "version": "4.1.0"
+          "revision": "c07d53044727db7edf8550c2e8ccfe1fa40177d2",
+          "version": "4.2.0"
         }
       },
       {
@@ -249,8 +249,8 @@
         "repositoryURL": "https://github.com/vapor/sqlite-nio.git",
         "state": {
           "branch": null,
-          "revision": "6481dd0b01112d082dd7eb362782126e81964138",
-          "version": "1.1.0"
+          "revision": "f68a2bcf8e14975c3332006a17d4c9a325f7c8ef",
+          "version": "1.2.0"
         }
       },
       {
@@ -281,6 +281,15 @@
         }
       },
       {
+        "package": "swift-atomics",
+        "repositoryURL": "https://github.com/apple/swift-atomics.git",
+        "state": {
+          "branch": null,
+          "revision": "919eb1d83e02121cdb434c7bfc1f0c66ef17febe",
+          "version": "1.0.2"
+        }
+      },
+      {
         "package": "swift-aws-lambda-runtime",
         "repositoryURL": "https://github.com/swift-server/swift-aws-lambda-runtime.git",
         "state": {
@@ -294,8 +303,8 @@
         "repositoryURL": "https://github.com/swift-server/swift-backtrace.git",
         "state": {
           "branch": null,
-          "revision": "d3e04a9d4b3833363fb6192065b763310b156d54",
-          "version": "1.3.1"
+          "revision": "f25620d5d05e2f1ba27154b40cafea2b67566956",
+          "version": "1.3.3"
         }
       },
       {
@@ -303,8 +312,8 @@
         "repositoryURL": "https://github.com/apple/swift-collections",
         "state": {
           "branch": null,
-          "revision": "48254824bb4248676bf7ce56014ff57b142b77eb",
-          "version": "1.0.2"
+          "revision": "f504716c27d2e5d4144fa4794b12129301d17729",
+          "version": "1.0.3"
         }
       },
       {
@@ -312,8 +321,8 @@
         "repositoryURL": "https://github.com/apple/swift-crypto.git",
         "state": {
           "branch": null,
-          "revision": "067254c79435de759aeef4a6a03e43d087d61312",
-          "version": "2.0.5"
+          "revision": "71ae6adf89ba5346a209ec7f48dbb571a7e8ad1e",
+          "version": "2.2.1"
         }
       },
       {
@@ -348,8 +357,8 @@
         "repositoryURL": "https://github.com/apple/swift-log.git",
         "state": {
           "branch": null,
-          "revision": "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
-          "version": "1.4.2"
+          "revision": "6fe203dc33195667ce1759bf0182975e4653ba1c",
+          "version": "1.4.4"
         }
       },
       {
@@ -375,8 +384,8 @@
         "repositoryURL": "https://github.com/apple/swift-nio.git",
         "state": {
           "branch": null,
-          "revision": "d6e3762e0a5f7ede652559f53623baf11006e17c",
-          "version": "2.39.0"
+          "revision": "e855380cb5234e96b760d93e0bfdc403e381e928",
+          "version": "2.45.0"
         }
       },
       {
@@ -384,8 +393,8 @@
         "repositoryURL": "https://github.com/apple/swift-nio-extras.git",
         "state": {
           "branch": null,
-          "revision": "f73ca5ee9c6806800243f1ac415fcf82de9a4c91",
-          "version": "1.10.2"
+          "revision": "91dd2d61fb772e1311bb5f13b59266b579d77e42",
+          "version": "1.15.0"
         }
       },
       {
@@ -393,8 +402,8 @@
         "repositoryURL": "https://github.com/apple/swift-nio-http2.git",
         "state": {
           "branch": null,
-          "revision": "50c25c132b140e62b45e90b5a76f13ded02c8a46",
-          "version": "1.20.1"
+          "revision": "d6656967f33ed8b368b38e4b198631fc7c484a40",
+          "version": "1.23.1"
         }
       },
       {
@@ -402,8 +411,8 @@
         "repositoryURL": "https://github.com/apple/swift-nio-ssl.git",
         "state": {
           "branch": null,
-          "revision": "b5260a31c2a72a89fa684f5efb3054d8725a2316",
-          "version": "2.18.0"
+          "revision": "4fb7ead803e38949eb1d6fabb849206a72c580f3",
+          "version": "2.23.0"
         }
       },
       {
@@ -411,8 +420,8 @@
         "repositoryURL": "https://github.com/apple/swift-nio-transport-services.git",
         "state": {
           "branch": null,
-          "revision": "8ab824b140d0ebcd87e9149266ddc353e3705a3e",
-          "version": "1.11.4"
+          "revision": "c0d9a144cfaec8d3d596aadde3039286a266c15c",
+          "version": "1.15.0"
         }
       },
       {
@@ -429,17 +438,17 @@
         "repositoryURL": "https://github.com/apple/swift-protobuf.git",
         "state": {
           "branch": null,
-          "revision": "e1499bc69b9040b29184f7f2996f7bab467c1639",
-          "version": "1.19.0"
+          "revision": "ab3a58b7209a17d781c0d1dbb3e1ff3da306bae8",
+          "version": "1.20.3"
         }
       },
       {
         "package": "SwiftPrometheus",
-        "repositoryURL": "https://github.com/MrLotU/SwiftPrometheus.git",
+        "repositoryURL": "https://github.com/swift-server-community/SwiftPrometheus.git",
         "state": {
           "branch": null,
-          "revision": "ba329daafa03027d36cda605df6c0d9b065b088e",
-          "version": "1.0.0-alpha.15"
+          "revision": "7e0cf8f913ed4353462bd4ad46f1db1b34c28a82",
+          "version": null
         }
       },
       {
@@ -447,8 +456,8 @@
         "repositoryURL": "https://github.com/vapor/websocket-kit.git",
         "state": {
           "branch": null,
-          "revision": "e32033ad3c68ebec1b761bc961be7bd56bad02f8",
-          "version": "2.3.1"
+          "revision": "2d9d2188a08eef4a869d368daab21b3c08510991",
+          "version": "2.6.1"
         }
       },
       {

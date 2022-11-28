@@ -21,9 +21,9 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
-        .package(url: "https://github.com/Apodini/Apodini.git", .upToNextMinor(from: "0.9.0")),
+        .package(url: "https://github.com/philippzagar/Apodini", .branchItem("develop")),
         .package(url: "https://github.com/apple/swift-metrics.git", .upToNextMinor(from: "2.2.0")),
-        .package(url: "https://github.com/MrLotU/SwiftPrometheus.git", from: "1.0.0-alpha")
+        .package(url: "https://github.com/swift-server-community/SwiftPrometheus.git", .revisionItem("7e0cf8f913ed4353462bd4ad46f1db1b34c28a82"))
     ],
     targets: [
         .target(
